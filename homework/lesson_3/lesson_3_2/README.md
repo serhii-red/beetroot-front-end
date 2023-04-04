@@ -1,1 +1,1 @@
-![Result](./assets/images/result.png?raw=true "Result")
+![Result](./images/result.png?raw=true "Result")
