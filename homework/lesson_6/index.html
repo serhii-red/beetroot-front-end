@@ -11,28 +11,28 @@
       <fieldset>
         <legend>Standart form</legend>
         <label for="name">First name:</label>
-        <input id="name" type="text" name="name" />
+        <input id="name" type="text" name="name" required/>
         <br />
         <label for="email">Email:</label>
-        <input id="email" type="email" name="email" />
+        <input id="email" type="email" name="email" required/>
         <br />
         <label for="password">Password:</label>
-        <input id="password" type="password" name="password" />
+        <input id="password" type="password" name="password" required/>
         <br />
         <label for="confirm-password">Confirm Password:</label>
-        <input type="password" id="confirm-password" name="confirm-password" />
+        <input type="password" id="confirm-password" name="confirm-password" required/>
         <br />
         <label>Gender:</label>
-        <input type="radio" id="male" name="gender" value="male" checked="checked"/>
+        <input type="radio" id="male" name="gender" value="male" checked="checked" required/>
         <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female" />
+        <input type="radio" id="female" name="gender" value="female" required/>
         <label for="female">Female</label>
         <br />
         <label for="age">Age:</label>
-        <input type="number" name="age" id="age" />
+        <input type="number" name="age" id="age" required/>
         <br />
         <label for="cource">Cource:</label>
-        <select name="cource" id="cource">
+        <select name="cource" id="cource" required>
           <option value="" disabled selected>Select your option</option>
           <option value="front-end">Front End</option>
           <option value="back-end">Back End</option>
@@ -40,9 +40,9 @@
         </select>
         <br />
         <label for="adress">Adress:</label>
-        <textarea name="adress" id="adress" cols="30" rows="10" form="form" placeholder="Country, region, city, street etc"></textarea>
+        <textarea name="adress" id="adress" cols="30" rows="10" form="form" required placeholder="Country, region, city, street etc"></textarea>
         <br />
-        <input id="tos" type="checkbox" name="tos" />
+        <input id="tos" type="checkbox" name="tos" required/>
         <label for="tos">I agree to the terms of personal data processing:</label>
         <br />
         <button type="reset">Clean form</button>
