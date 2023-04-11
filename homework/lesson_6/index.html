@@ -1,54 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registration Form</title>
-  </head>
-  <body>
-    <form id="form" name="contact" netlify>
-      <fieldset>
-        <legend>Registration Form</legend>
-        <label for="name">First name:</label>
-        <input id="name" type="text" name="name" alt="sadasd" required/>
-        <br />
-        <label for="email">Email:</label>
-        <input id="email" type="email" name="email" required/>
-        <br />
-        <label for="password">Password:</label>
-        <input id="password" type="password" name="password" required/>
-        <br />
-        <label for="confirm-password">Confirm Password:</label>
-        <input type="password" id="confirm-password" name="confirm-password" required/>
-        <br />
-        <label>Gender:</label>
-        <input type="radio" id="male" name="gender" value="male" checked="checked" required/>
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female" required/>
-        <label for="female">Female</label>
-        <br />
-        <label for="age">Age:</label>
-        <input type="number" min="12" max="99" name="age" id="age" required/>
-        <br />
-        <label for="cource">Cource:</label>
-        <select name="cource" id="cource" required>
-          <option value="" disabled selected>Select your option</option>
-          <option value="front-end">Front End</option>
-          <option value="back-end">Back End</option>
-          <option value="qa">QA</option>
-        </select>
-        <br />
-        <label for="adress">Adress:</label>
-        <textarea name="adress" id="adress" cols="30" rows="10" form="form" required placeholder="Country, region, city, street etc"></textarea>
-        <br />
-        <input id="tos" type="checkbox" name="tos" required/>
-        <label for="tos">I agree to the terms of personal data processing</label>
-        <br />
-        <button type="reset">Clean form</button>
-        <button type="submit">Register</button>
-        <br />
-      </fieldset>
-    </form>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+  <form id="form" name="contact" netlify>
+    <fieldset>
+      <legend>Registration Form</legend>
+      <label for="name">First name:</label>
+      <input id="name" type="text" name="name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input id="email" type="email" name="email" required>
+      <br>
+      <label for="password">Password:</label>
+      <input id="password" type="password" name="password" required>
+      <br>
+      <label for="confirm-password">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+      <br>
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" checked required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label>
+      <br>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="12" max="99" required>
+      <br>
+      <label for="course">Course:</label>
+      <select id="course" name="course" required>
+        <option value="" disabled selected>Select your option</option>
+        <option value="front-end">Front End</option>
+        <option value="back-end">Back End</option>
+        <option value="qa">UI/UX Desigb</option>
+        <option value="qa">QA</option>
+      </select>
+      <br>
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" cols="30" rows="10" form="form" required placeholder="Country, region, city, street etc"></textarea>
+      <br>
+      <input type="checkbox" id="tos" name="tos" required>
+      <label for="tos">I agree to the terms of personal data processing</label>
+      <br>
+      <button type="reset">Clean form</button>
+      <button type="submit">Register</button>
+      <br>
+    </fieldset>
+  </form>
+</body>
 </html>
