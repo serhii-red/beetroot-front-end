@@ -10,6 +10,19 @@
       background-color: rgb(211, 211, 211);
       color: rgb(35, 34, 34);
     }
+    fieldset {
+      margin-bottom: 15px;
+    }
+    button {
+      margin-top: 10px;
+      margin-right: 5px;
+    }
+    .reset {
+      background-color: rgb(203, 89, 89);
+    }
+    .submit {
+      background-color: rgb(128, 203, 128);
+    }
   </style>
 </head>
 <body>
@@ -63,8 +76,8 @@
       <input type="checkbox" id="tos" name="tos" required>
       <label for="tos">I agree to the terms of personal data processing</label>
       <br>
-      <button type="reset">Clear</button>
-      <button type="submit">Sign up</button>
+      <button class="reset" type="reset">Clear</button>
+      <button class="submit" type="submit">Sign up</button>
       <br>  
     </fieldset>
   </form>
