@@ -189,6 +189,13 @@ button {
     transition: all 1s;
 
 }
+
+.contacts__send_button:focus {
+    background-color: rgb(67, 133, 92);
+    transition: all .3s;
+
+}
+
 .container__socials li {
     display: inline;
     width: 40px;
