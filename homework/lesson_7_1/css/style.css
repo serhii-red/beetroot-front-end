@@ -1,0 +1,68 @@
+:root {
+    /* I made it brighter "--color-light-pink" than in the layout so that the differences could be seen */
+    --color-gray: #D9D9D9;
+    --color-blue: #1B17E9;
+    --color-light-pink: #e19b9b;
+    --color-dark-pink: #C66161;
+    --color-ligth-green: #63E18E;
+    --color-dark-green: #2DB743;
+    --color-black: #000000;
+    --default-top-margin: 5vh;
+    --default-div-width: 95vw;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: var(--color-gray);
+}
+
+.blue-container {
+    width: var(--default-div-width);
+    height: 50vh;
+    margin-top: var(--default-top-margin);
+    background: var(--color-blue);
+}
+
+.pink-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--default-div-width);
+    height: 15vh;
+    margin-top: var(--default-top-margin);
+    background: var(--color-dark-pink);
+}
+
+.blue-container+.pink-container {
+    background: var(--color-light-pink);
+}
+
+.light-green-container {
+    width: calc(var(--default-div-width) - 3%);
+    height: calc(15vh - 30%);
+    background: var(--color-ligth-green);
+}
+
+.pink-container:last-of-type {
+    height: 25vh;
+}
+
+.black-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(var(--default-div-width) - 3%);
+    height: calc(25vh - 30%);
+    background: var(--color-black);
+}
+
+.dark-green-container {
+    width: calc((var(--default-div-width) - 3%) - 3%);
+    height: calc((25vh - 30%) - 50%);
+    background: var(--color-dark-green);
+}
