@@ -5,6 +5,9 @@
     --color-gray: #828282;
     --color-light-gray: #F6F6F6;
     --color-white: #FFFFFF;
+    --font-weight: 700;
+    --padding-top: 100px;
+    --width: 80vw;
 }
 
 body,
@@ -42,23 +45,23 @@ button {
     margin: 28px auto auto auto;
     border: 1px solid var(--color-gray);
     border-style: outset;
-    width: 80vw;
+    width: var(--width);
 }
 
 .home {
     margin: 28px auto auto auto;
-    width: 80vw;
+    width: var(--width);
 }
 
 .home__title {
     margin-top: 12px;
     font-size: 48px;
-    font-weight: 700;
+    font-weight: var(--font-weight);
 }
 
 .home__image {
     margin-top: 50px;
-    width: 80vw;
+    width: var(--width);
 }
 
 .container:nth-child(2n) {
@@ -67,16 +70,16 @@ button {
 
 .about {
     margin: 0 auto;
-    width: 80vw;
+    width: var(--width);
     text-align: center;
     padding: 100px 0 100px 0;
-    padding-top: 100px;
+    padding-top: var(--padding-top);
 }
 
 .about__subtitle {
     padding-bottom: 50px;
     font-size: 34px;
-    font-weight: 700;
+    font-weight: var(--font-weight);
 }
 
 .about__description {
@@ -89,16 +92,16 @@ button {
 
 .skills {
     margin: 0 auto;
-    width: 80vw;
+    width: var(--width);
     text-align: center;
     padding-bottom: 100px;
-    padding-top: 100px;
+    padding-top: var(--padding-top);
 }
 
 .skills__subtitle {
     padding-bottom: 50px;
     font-size: 34px;
-    font-weight: 700;
+    font-weight: var(--font-weight);
 }
 
 .skills__description {
@@ -121,15 +124,15 @@ button {
 
 .portfolio {
     margin: 0 auto;
-    width: 80vw;
+    width: var(--width);
     text-align: center;
-    padding-top: 100px;
+    padding-top: var(--padding-top);
 }
 
 .portfolio__subtitle {
     padding-bottom: 50px;
     font-size: 34px;
-    font-weight: 700px;
+    font-weight: var(--font-weight);
 }
 
 .portfolio__item {
@@ -137,7 +140,7 @@ button {
 }
 
 .portfolio__item__image {
-    width: 80vw;
+    width: var(--width);
 }
 
 .portfolio__item:last-of-type {
@@ -152,15 +155,15 @@ button {
 
 .contacts {
     margin: 0 auto;
-    width: 80vw;
+    width: var(--width);
     text-align: center;
-    padding-top: 100px;
+    padding-top: var(--padding-top);
 }
 
 .contacts__subtitle {
     padding-bottom: 20px;
     font-size: 34px;
-    font-weight: 700;
+    font-weight: var(--font-weight);
 }
 
 .contacts__description {
@@ -168,7 +171,7 @@ button {
 }
 
 .contacts__send_button {
-    font-weight: 700;
+    font-weight: var(--font-weight);
     background: var(--color-black);
     color: var(--color-white);
     letter-spacing: 0.1em;
