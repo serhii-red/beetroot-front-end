@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-black: #070707;
+    --color-gray: #828282;
+    --color-light-gray: #F6F6F6;
+    --color-white: #FFFFFF;
+    --font-weight: 700;
+    --padding-top: 100px;
+    --width: 80vw;
+}
+
+body,
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__nav-list li {
+    margin-top: 28px;
+    padding-right: 40px;
+    display: inline-block;
+    padding: 0 20px;
+    color: var(--color-gray);
+}
+
+/* Додати еффект зміни жирності тексту при наведенні на елементи меню в макеті Denis Novik */
+.header__nav-list li:hover {
+    color: var(--color-black);
+    font-weight: 600;
+}
+
+.header__nav-item {
+    text-decoration: none;
+}
+
+.header__line {
+    margin: 28px auto auto auto;
+    border: 1px solid var(--color-gray);
+    border-style: outset;
+    width: var(--width);
+}
+
+
+.home {
+    margin: 28px auto auto auto;
+    width: var(--width);
+}
+
+.home__title {
+    margin-top: 12px;
+    font-size: 48px;
+    font-weight: var(--font-weight);
+}
+
+.home__image {
+    margin-top: 50px;
+    width: var(--width);
+}
+
+.container:nth-child(2n) {
+    background: var(--color-light-gray);
+}
+
+.about {
+    margin: 0 auto;
+    width: var(--width);
+    text-align: center;
+    padding: 100px 0 100px 0;
+    padding-top: var(--padding-top);
+}
+
+.about__subtitle {
+    padding-bottom: 50px;
+    font-size: 34px;
+    font-weight: var(--font-weight);
+}
+
+.about__description {
+    padding-bottom: 30px;
+}
+
+.about__description:last-of-type {
+    padding-bottom: 0;
+}
+
+.skills {
+    margin: 0 auto;
+    width: var(--width);
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: var(--padding-top);
+}
+
+.skills__subtitle {
+    padding-bottom: 50px;
+    font-size: 34px;
+    font-weight: var(--font-weight);
+}
+
+.skills__description {
+    padding-bottom: 50px;
+}
+
+.skills__container li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.skills__container p {
+    color: var(--color-gray);
+    padding-top: 25px;
+}
+
+.skills__container img:last-of-type {
+    padding-top: 60px;
+}
+
+.portfolio {
+    margin: 0 auto;
+    width: var(--width);
+    text-align: center;
+    padding-top: var(--padding-top);
+}
+
+.portfolio__subtitle {
+    padding-bottom: 50px;
+    font-size: 34px;
+    font-weight: var(--font-weight);
+}
+
+.portfolio__item {
+    padding-bottom: 70px;
+}
+
+.portfolio__item__image {
+    width: var(--width);
+}
+
+.portfolio__item:last-of-type {
+    padding-bottom: 100px;
+}
+
+.portfolio__item a {
+    display: block;
+    padding-top: 40px;
+    text-decoration: underline;
+}
+
+.contacts {
+    margin: 0 auto;
+    width: var(--width);
+    text-align: center;
+    padding-top: var(--padding-top);
+}
+
+.contacts__subtitle {
+    padding-bottom: 20px;
+    font-size: 34px;
+    font-weight: var(--font-weight);
+}
+
+.contacts__description {
+    padding-bottom: 60px;
+}
+
+.contacts__send_button {
+    font-weight: var(--font-weight);
+    background: var(--color-black);
+    color: var(--color-white);
+    letter-spacing: 0.1em;
+    padding: 10px 16px;
+    border-radius: 22px;
+    margin-bottom: 30px;
+}
+
+/* Застосувати свій ховер эффект при наведенні на кнопку */
+.contacts__send_button:hover {
+    background-color: #0cf;
+    transition: all 1s;
+
+}
+.container__socials li {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    padding-inline: 30px;
+}
+
+/* Додати ефект зменшення прозорості до 0,5 при наведенні мишки на посилання на соціальні мережі */
+.container__socials li:hover {
+    opacity: 0.5;
+}
+
+.contacts__copywright {
+    padding: 60px 0 100px;
+    font-size: 14px;
+    color: var(--color-gray)
+}
