@@ -96,7 +96,7 @@ button {
 }
 
 .skills__subtitle {
-    padding: 50px 0 50px;
+    padding-bottom: 50px;
     font-size: 34px;
     font-weight: 700;
 }
@@ -107,18 +107,16 @@ button {
 
 .skills__container li {
     display: inline-block;
-    padding: 0 5vw 25px;
+    padding-right: 40px;
 }
 
-.skills__products li {
+.skills__container p {
     color: var(--color-gray);
-    display: inline-block;
-    padding: 0 4.7vw 25px;
+    padding-top: 25px;
 }
 
-.skills__rates li {
-    display: inline-block;
-    padding: 0 1.8vw 25px;
+.skills__container img:last-of-type {
+    padding-top: 60px;
 }
 
 .portfolio {
