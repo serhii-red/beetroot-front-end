@@ -4,67 +4,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shopping list</title>
+    <title>Dinner Shopping List</title>
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="wrapper">
-      <div class="main-container">
-        <header class="header">
-          <div class="container">
+      <header>
+        <div class="container">
+          <div class="header">
             <h1>CSS Dinner Shopping List</h1>
             <h3>Let’s go to the mall!</h3>
           </div>
-        </header>
-        <section class="items-section">
-          <div class="container">
-            <ul class="items-section__items">
-              <li>
-                <input type="checkbox" />
-                <p class="items-section__title">A lot of pickles</p>
-                <p class="items-section__comment">
-                  for the next lessons about CSS
-                </p>
-              </li>
-              <li>
-                <input type="checkbox" checked />
-                <p class="items-section__title">10 apples</p>
-                <p class="items-section__comment">for more CSS manipulations</p>
-              </li>
-              <li>
-                <input type="checkbox" />
-                <p class="items-section__title">20 oranges</p>
-                <p class="items-section__comment">because they are awesome</p>
-              </li>
-              <li>
-                <input type="checkbox" />
-                <p class="items-section__title">13 plates</p>
-                <p class="items-section__comment">
-                  hm... they always dissapear
-                </p>
-              </li>
-              <li>
-                <input type="checkbox" checked />
-                <p class="items-section__title">15 bentos</p>
-              </li>
-              <li>
-                <input type="checkbox" />
-                <p class="items-section__title">1 bottle of Sake</p>
-                <p class="items-section__comment">for my friends</p>
-              </li>
-            </ul>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <ul>
+            <li>
+              <label>
+                <div class="item-info">
+                  <input type="checkbox" />
+                  <p class="title">A lot of pickles</p>
+                  <p class="comment">for the next lessons about CSS</p>
+                </div>
+              </label>
+            </li>
+            <li>
+              <label>
+                <div class="item-info">
+                  <input type="checkbox" checked />
+                  <p class="title">10 apples</p>
+                  <p class="comment">for more CSS manipulations</p>
+                </div>
+              </label>
+            </li>
+            <li>
+              <label>
+                <div class="item-info">
+                  <input type="checkbox" />
+                  <p class="title">20 oranges</p>
+                  <p class="comment">because they are awesome</p>
+                </div>
+              </label>
+            </li>
+            <li>
+              <label>
+                <div class="item-info">
+                  <input type="checkbox" />
+                  <p class="title">13 plates</p>
+                  <p class="comment">hm... they always dissapear</p>
+                </div>
+              </label>
+            </li>
+            <li>
+              <label>
+                <div class="item-info">
+                  <input type="checkbox" />
+                  <p class="title">15 bentos</p>
+                  <!-- <p class="comment">for the next lessons about CSS</p> -->
+                </div>
+              </label>
+            </li>
+            <li>
+              <label>
+                <div class="item-info">
+                  <input type="checkbox" checked />
+                  <p class="title">1 bottle of Sake</p>
+                  <p class="comment">for my friends</p>
+                </div>
+              </label>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <footer>
+        <div class="container">
+          <div class="footer">
+            <p>Bon appetit</p>
           </div>
-        </section>
-        <section class="button">
-          <div class="container">
-            <div class="button__container">
-              <p>Bon appetit</p>
-            </div>
-          </div>
-        </section>
-      </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
