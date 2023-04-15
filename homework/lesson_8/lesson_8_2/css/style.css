@@ -110,6 +110,7 @@ body {
     border-top: 5px solid var(--white);
     border-bottom: 5px solid var(--white);
     background-color: var(--dark-purpure);
+    transition: all .1s ease-in;
 } 
 
 .main label:active {
@@ -119,6 +120,7 @@ body {
 input[type="checkbox"]:checked ~ p {
     text-decoration: line-through;
     color: var(--text-gray);
+    transition: all .1s ease-in;
 }
 
 input[type="checkbox"] {
