@@ -126,6 +126,7 @@ input[type="checkbox"] {
     accent-color: var(--white);
     margin-left: 15px;
     transform: scale(3);
+    cursor: pointer;
 }
 
 input[type="checkbox"]:active {
