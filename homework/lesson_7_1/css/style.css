@@ -50,6 +50,7 @@
 
 .pink-container:last-of-type {
     height: 25vh;
+    margin-bottom: 5vh;
 }
 
 .black-container {
