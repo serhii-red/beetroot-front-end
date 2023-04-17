@@ -65,8 +65,13 @@ body {
     height: 15vh;
     text-align: center;
     padding-top: 2.5%;
-    opacity: 0.85;
+    opacity: 0.80;
     cursor: pointer;
+}
+
+.main__city-list li:hover {
+    opacity: 1;
+    transition: all .1s ease-in;
 }
 
 .city-item .city-name, .city-weather, .city-weather-icon {
