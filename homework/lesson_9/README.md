@@ -2,4 +2,4 @@
 
 Part 1 (create Productly (header and first section) - [codebase link](https://github.com/serhii-red/beetroot-front-end/tree/main/homework/lesson_9/lesson_9_1), [site reference](https://leafy-gumption-23cc20.netlify.app/), [result screenshot](https://monosnap.com/file/m1OwSMcvO93EgEDTBlx4bUxxOxqLAz).
 
-Part 2 (create Weather Forecast - [codebase link](https://github.com/serhii-red/beetroot-front-end/tree/main/homework/lesson_9/lesson_9_2), [site reference](https://heroic-lily-83b1f7.netlify.app/), [result screenshot](https://monosnap.com/file/VSfi0yk2mC2FhpJ0TqgCiFylA4mMn4).
+Part 2 Extra (create Weather Forecast) - [codebase link](https://github.com/serhii-red/beetroot-front-end/tree/main/homework/lesson_9/lesson_9_2), [site reference](https://heroic-lily-83b1f7.netlify.app/), [result screenshot](https://monosnap.com/file/VSfi0yk2mC2FhpJ0TqgCiFylA4mMn4).
