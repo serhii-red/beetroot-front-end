@@ -5,23 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Productly</title>
-    <link rel="icon" type="image/x-icon" href="./ico/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
+      <header id="main" class="header">
         <div class="container">
           <div class="header__logo">
-            <img class="logo" src="./img/logo.png" alt="Productly" />
+            <a href="#main"
+              ><img class="logo" src="./img/logo.png" alt="Productly"
+            /></a>
           </div>
           <nav class="header__nav">
             <ul>
-              <li class="menu_item"><a href="#">Product</a></li>
-              <li class="menu_item"><a href="#">Customers</a></li>
-              <li class="menu_item"><a href="#">Pricing</a></li>
-              <li class="menu_item"><a href="#">Resources</a></li>
+              <li class="menu_item"><a href="#product">Product</a></li>
+              <li class="menu_item"><a href="#customers">Customers</a></li>
+              <li class="menu_item"><a href="#pricing">Pricing</a></li>
+              <li class="menu_item"><a href="#resources">Resources</a></li>
             </ul>
           </nav>
           <div class="header__buttons">
@@ -55,6 +57,204 @@
           </div>
         </div>
       </section>
+      <section id="product" class="features">
+        <div class="container">
+          <h3 class="features__title">
+            We design tools to unveil<br />
+            your superpowers
+          </h3>
+          <ul>
+            <li class="features__card">
+              <img src="./img/feature-screen-image-1.png" alt="" />
+              <h4>First click tests</h4>
+              <p>
+                While most people enjoy casino <br />
+                gambling,
+              </p>
+            </li>
+            <li class="features__card">
+              <img src="./img/feature-screen-image-2.png" alt="" />
+              <h4>Design surveys</h4>
+              <p>
+                Sports betting, lottery and bingo <br />
+                playing for the fun
+              </p>
+            </li>
+            <li class="features__card">
+              <img src="./img/feature-screen-image-3.png" alt="" />
+              <h4>Preference tests</h4>
+              <p>
+                The Myspace page defines the <br />
+                individual.
+              </p>
+            </li>
+            <li class="features__card">
+              <img src="./img/feature-screen-image-4.png" alt="" />
+              <h4>Five second tests</h4>
+              <p>
+                Personal choices and the overall <br />
+                personality of the person.
+              </p>
+            </li>
+          </ul>
+          <div class="features__button">
+            <a href="#"><button class="sign-up btn">Sign up Now</button></a>
+          </div>
+        </div>
+      </section>
+      <section id="customers" class="benefits-screen">
+        <div class="container">
+          <div class="benefits-screen__left-side">
+            <p class="benefits-screen__note">Effortless Validation for</p>
+            <h3 class="benefits-screen__title">Design Professionals</h3>
+            <p class="benefits-screen__description">
+              The Myspace page defines the individual, his or her <br />
+              characteristics, traits, personal choices and the overall <br />
+              personality of the person.
+            </p>
+            <h4 class="benefits-screen__subtitle">Accessory makers</h4>
+            <p class="benefits-screen__description">
+              While most people enjoy casino gambling, sports betting, <br />
+              lottery and bingo playing for the fun
+            </p>
+            <h4 class="benefits-screen__subtitle">Alterationists</h4>
+            <p class="benefits-screen__description">
+              If you are looking for a new way to promote your business <br />
+              that won’t cost you more money
+            </p>
+            <h4 class="benefits-screen__subtitle">Custom Design designers</h4>
+            <p class="benefits-screen__description">
+              If you are looking for a new way to promote your business <br />
+              that won’t cost you more money
+            </p>
+          </div>
+          <div class="benefits-screen__right-side">
+            <img
+              class="benefits-screen__image"
+              src="./img/benefits-screen-image.png"
+              alt="Benefits 'Productly' customers"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="pricing" class="pm-screen">
+        <div class="container">
+          <div class="pm-screen__left-side">
+            <img
+              class="pm-screen__image"
+              src="./img/pm-screen-image.png"
+              alt="Product Managers 'Productly' customers"
+            />
+          </div>
+          <div class="pm-screen__right-side">
+            <p class="pm-screen__note">Easier decision making for</p>
+            <h3 class="pm-screen__title">Product Managers</h3>
+            <p class="pm-screen__description">
+              The Myspace page defines the individual, his or her <br />
+              characteristics, traits, personal choices and the overall <br />
+              personality of the person.
+            </p>
+            <ul>
+              <li>
+                <img src="./img/list-icon.png" alt="list-icon" width="20px" />
+                <p>
+                  Never worry about overpaying for your energy bill <br />
+                  again.
+                </p>
+              </li>
+              <li>
+                <img src="./img/list-icon.png" alt="list-icon" width="20px" />
+                <p>
+                  We will only switch you to energy companies that we <br />
+                  trust and will treat you right.
+                </p>
+              </li>
+              <li>
+                <img src="./img/list-icon.png" alt="list-icon" width="20px" />
+                <p>
+                  We track the markets daily and know where the <br />
+                  savings are.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="resources" class="marketers-screen">
+        <div class="container">
+          <div class="marketers-screen__left-side">
+            <p class="marketers-screen__note">Optimisation for</p>
+            <h3 class="marketers-screen__title">Marketers</h3>
+            <p class="marketers-screen__description">
+              Few would argue that, despite the advancements of <br />
+              feminism over the past three decades, women still face a <br />
+              double standard when it comes to their behavior.
+            </p>
+            <h4 class="marketers-screen__subtitle">Accessory makers</h4>
+            <p class="marketers-screen__description">
+              While most people enjoy casino gambling, sports betting, <br />
+              lottery and bingo playing for the fun
+            </p>
+            <h4 class="marketers-screen__subtitle">Alterationists</h4>
+            <p class="marketers-screen__description">
+              If you are looking for a new way to promote your business <br />
+              that won’t cost you more money
+            </p>
+            <h4 class="marketers-screen__subtitle">Custom Design designers</h4>
+            <p class="marketers-screen__description">
+              If you are looking for a new way to promote your business <br />
+              that won’t cost you more money
+            </p>
+          </div>
+          <div class="marketers-screen__right-side">
+            <img
+              class="marketers-screen__image"
+              src="./img/marketers-screen-image.png"
+              alt="Benefits 'Productly' customers"
+            />
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__line"></div>
+        <div class="container">
+          <div class="footer__logo">
+            <a href="#"
+              ><img class="logo" src="./img/logo.png" alt="Productly"
+            /></a>
+          </div>
+          <div class="footer__links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer__legal">
+            <h4>Legal Stuff</h4>
+            <ul>
+              <li><a href="#">Disclaimer</a></li>
+              <li><a href="#">Financing</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="footer__form">
+            <h4>
+              Knowing you're always on <br />
+              the best energy deal.
+            </h4>
+            <input type="text" placeholder="Enter your phone Number" />
+            <div class="footer__button">
+              <a href="#main"
+                ><button class="sign-up btn">Sign up Now</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
