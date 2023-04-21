@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 135px;
+}
+
+.logo {
+    width: 170px;
+}
+
+:root{
+    /* Colors */
+    --color-dark-blue: #18B5DC;
+    --color-light-blue: #5DCBE6;
+    --color-white: #FFFFFF;
+    --color-dark-gray: #3C3C3C;
+    --color-light-gray: #646464;
+    --color-black: #282528;
+    --color-divider: #BDBDBD;
+    --color-gray-bg: #F6F6F6;
+
+    /* Fonts */
+    --main-font: 'Lato', sans-serif;
+    --header-menu-font: 600 20px/24px var(--main-font);
+    --header-btn-font: 600 18px/22px var(--main-font);
+    --main-title-font: 600 34px/41px var(--main-font);
+    --main-subtitle-font: 300 16px/24px var(--main-font);
+    --main-item-name: 700 18px/22px var(--main-font);
+    --main-item-desc: 300 18px/22px var(--main-font);
+}
+
+/* Header */
+
+.header {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--color-divider);
+    height: 80px;
+}
+
+.header_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_list {
+    display: flex;
+    gap: 30px;
+    text-transform: uppercase;
+    font: var(--header-menu-font);
+    color: var(--color-dark-gray);
+}
+
+.menu_item:hover {
+    color: var(--color-dark-blue);
+}
+
+.header__button {
+    display: flex;
+    color: var(--color-dark-gray);
+    font: var(--header-btn-font);
+    text-transform: uppercase;
+    background: transparent;
+    padding: 10px 20px;
+    border: 1px solid var(--color-dark-gray);
+    cursor: pointer;
+}
+
+.header__button:hover {
+    color: var(--color-white);
+    background: var(--color-dark-blue);
+    border: 1px solid var(--color-dark-blue);
+    transform: background 1s;
+}
+/* Header end */
+
+
+/* Main */
+.main {
+    background: var(--color-gray-bg);
+    height: 833px;
+}
+
+.main_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 135px;
+}
+
+.main__title {
+    font: var(--main-title-font);
+    color: var(--color-dark-gray);
+    text-transform: uppercase;
+    padding: 0 0 64px;
+}
+
+.main__subtitle {
+    font: var(--main-subtitle-font);
+    color: var(--color-dark-gray);
+    text-align: center;
+    padding: 0 0 60px;
+}
+
+.team_list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.team_item {
+    padding: 0 0 20px;
+    position: relative;
+	height: 270px;
+}
+
+.photo_container svg rect{
+    fill: var(--color-light-blue);
+}
+
+.photo_container svg path {
+    fill: var(--color-white);
+}
+
+.photo_container svg:hover rect {
+    fill: var(--color-white);
+}
+
+.photo_container svg:hover path {
+    fill: var(--color-dark-blue);
+}
+
+.socials  {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: none;
+	opacity: 0;
+	background-color: var(--color-dark-blue);
+}
+
+.team_item:hover .socials {
+	display: flex;
+	opacity: 1;
+}
+
+.team_item h4 {
+    font: var( --main-item-name);
+    color: var(--color-black);
+}
+
+.team_item p {
+    font: var( --main-item-desc);
+    color: var(--color-light-gray);
+    padding: 0 0 150px;
+}
+/* Main end*/
+
+/* Footer */
+.footer {
+    height: 260px;
+
+}
+
+.footer_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.footer_col .menu {
+    padding: 28px 0;
+    font: var(--header-btn-font);
+}
+
+.footer_col .socials {
+    padding: 28px 0;
+}
+
+.social_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.social_item svg:hover rect:first-of-type {
+    fill: var(--color-dark-blue);
+}
+
+.social_item svg:hover path {
+    fill: var(--color-white);
+}
+/* Footer end */
