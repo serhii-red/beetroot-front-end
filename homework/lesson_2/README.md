@@ -1,3 +1,3 @@
 # Website Link
 
-You can access the website by clicking [here](https://serhii-red-beetroot-lesson2.netlify.app/).
+You can access the website by clicking [here](https://happy-stinky-kapybara.netlify.app/).
